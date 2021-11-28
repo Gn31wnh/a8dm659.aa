@@ -5,7 +5,8 @@ body {
  margin-left: auto;
  margin-top : 0px;
  margin-bottom : 0px;
- border-right: 2px solid white;
+ border-left: 1px solid green;
+ border-right: 1px solid green;
 }
 
 div.article {
@@ -59,14 +60,14 @@ span.chinese1 {
  display : inline-block;
  vertical-align: top;
  font-family: Mingliu, sans-serif;
- font-size: 1.0em;
+ font-size: 16px;
 }
 
 /* 獨塊 */
 span.chinese2 {
  font-family: Mingliu, sans-serif;
- font-size: 1.0em;
- line-height : 1.3em;
+ font-size: 16px;
+ line-height : 18px;
 }
 
 /* 圖內 */
@@ -74,7 +75,7 @@ span.chineseM {
  display : inline-block;
  vertical-align: top;
  font-family: Mingliu;
- font-size: 1em;
+ font-size: 16px;
 }
 
 dl {
@@ -121,7 +122,7 @@ dd.ainote {
 /* -----------------------------------------------------------
  ■ 讀者留言
 ------------------------------------------------------------ */
-/* 讀者留言隱藏*/
+/* 讀者留言順序翻轉 */
 fieldset {
  display: none;
  flex-direction: column-reverse;
@@ -167,7 +168,7 @@ div.comments p {
 }
 
 dd {
- font-family : "Mona","IPA モナー Pゴシック","IPAMonaPGothic","IPA mona PGothic","IPA MONAPGOTHIC","MS  PGothic AA","mona-gothic-jisx0208.1990-0","MS PGothic","ＭＳ Ｐゴシック", "Saitamaar",sans-serif;
+ font-family : "MS PGothic AA","mona-gothic-jisx0208.1990-0","MS PGothic","ＭＳ Ｐゴシック", "Saitamaar",sans-serif;
  font-size  : 16px;
  font-weight : normal;
  line-height : 18px;
