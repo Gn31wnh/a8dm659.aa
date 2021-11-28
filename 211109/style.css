@@ -8,6 +8,7 @@ body {
  white-space: nowrap;
  overflow-wrap: anywhere;
  word-break: keep-all;
+ border-right: 1px solid green;
 }
 
 div.article {
