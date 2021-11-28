@@ -118,10 +118,6 @@ dd.ainote {
  top: 0.4em;
 }
 
-dt {
- font-size: 16px;
-}
-
 /* -----------------------------------------------------------
  ■ 讀者留言
 ------------------------------------------------------------ */
@@ -182,4 +178,11 @@ dd {
     font-variant: normal;
     font-weight: 400;
     font-stretch: normal;
+}
+
+dt {
+    font-size: 16px;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
