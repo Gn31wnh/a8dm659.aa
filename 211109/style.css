@@ -1,6 +1,6 @@
 body {
  font-family : "Meiryo UI", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック";
- max-width: 1079px;
+ max-width: 1080px;
  margin-right: auto;
  margin-left: auto;
  margin-top : 0px;
@@ -8,7 +8,7 @@ body {
  white-space: nowrap;
  overflow-wrap: anywhere;
  word-break: keep-all;
- border-right: 100px solid green;
+ border-right: 2px solid green;
 }
 
 div.article {
