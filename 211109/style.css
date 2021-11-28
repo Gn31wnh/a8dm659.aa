@@ -13,7 +13,7 @@ div.article {
 }
 
 h2 {
- font-family : Microsoft JhengHei;
+ font-family : Microsoft JhengHei, 'Noto Sans TC';
  margin-block-start: 0px;
  margin-block-end: 0px;
  padding : 5px 5px;
@@ -157,16 +157,6 @@ span.commentator-info {
 div.comments p {
  padding : 6px;
  margin-top : 3px;
-}
-
-/* noto-sans-tc-regular - latin_chinese-traditional */
-@font-face {
-  font-family: 'Noto Sans TC';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/noto-sans-tc-v20-latin_chinese-traditional-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/noto-sans-tc-v20-latin_chinese-traditional-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face{
