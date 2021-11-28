@@ -5,6 +5,7 @@ body {
  margin-left: auto;
  margin-top : 0px;
  margin-bottom : 0px;
+ white-space: nowrap;
 }
 
 div.article {
@@ -20,6 +21,9 @@ h2 {
  border-bottom : solid 2px #036;
  line-height : 30px;
  font-size : 20px;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -173,7 +177,6 @@ dd {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     word-break: break-all;
-    white-space: nowrap;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -186,5 +189,4 @@ dt {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     word-break: break-all;
-    white-space: nowrap;
 }
