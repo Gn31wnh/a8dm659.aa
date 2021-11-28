@@ -61,13 +61,13 @@ form {
 span.chinese1 {
  display : inline-block;
  vertical-align: top;
- font-family: Mingliu, sans-serif;
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
  font-size: 16px;
 }
 
 /* 獨塊 */
 span.chinese2 {
- font-family: Mingliu, sans-serif;
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
  font-size: 16px;
  line-height : 20px;
 }
@@ -76,7 +76,7 @@ span.chinese2 {
 span.chineseM {
  display : inline-block;
  vertical-align: top;
- font-family: Mingliu;
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
  font-size: 16px;
 }
 
@@ -157,6 +157,16 @@ span.commentator-info {
 div.comments p {
  padding : 6px;
  margin-top : 3px;
+}
+
+/* noto-sans-tc-regular - latin_chinese-traditional */
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/noto-sans-tc-v20-latin_chinese-traditional-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/noto-sans-tc-v20-latin_chinese-traditional-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face{
