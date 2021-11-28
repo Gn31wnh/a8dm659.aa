@@ -168,7 +168,7 @@ div.comments p {
 }
 
 dd {
- display : inline;
+ display : block;
  font-family : "MS PGothic AA","mona-gothic-jisx0208.1990-0","MS PGothic","ＭＳ Ｐゴシック", "Saitamaar",sans-serif;
  font-size  : 16px;
  font-weight : normal;
