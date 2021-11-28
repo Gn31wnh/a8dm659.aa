@@ -21,9 +21,9 @@ h2 {
  border-bottom : solid 2px #036;
  line-height : 30px;
  font-size : 20px;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -69,7 +69,7 @@ span.chinese1 {
 span.chinese2 {
  font-family: Mingliu, sans-serif;
  font-size: 16px;
- line-height : 18px;
+ line-height : 20px;
 }
 
 /* 圖內 */
@@ -170,23 +170,23 @@ url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');
 font-weight:400}
 
 dd {
-    font-family: Stmr,'MS PGothic';
-    font-size: 16px;
-    line-height: 1.125;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    word-break: break-all;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    font-stretch: normal;
+ font-family: Stmr,'MS PGothic';
+ font-size: 16px;
+ line-height: 1.125;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ word-break: break-all;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: 400;
+ font-stretch: normal;
 }
 
 dt {
-    font-size: 16px;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    word-break: break-all;
+ font-size: 16px;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ word-break: break-all;
 }
