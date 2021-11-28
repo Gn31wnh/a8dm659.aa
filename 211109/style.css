@@ -5,8 +5,6 @@ body {
  margin-left: auto;
  margin-top : 0px;
  margin-bottom : 0px;
- border-left: 1px solid blue;
- border-right: 1px solid blue;
 }
 
 div.article {
@@ -88,6 +86,7 @@ dl.ainote2 {
  display: none;
 }
 
+/* 特寬AA用 */
 dl.ainote3 {
  overflow-wrap: anywhere;
  white-space:nowrap;
@@ -117,6 +116,10 @@ dd.ainote {
  line-height : 1.2em;
  position: relative;
  top: 0.4em;
+}
+
+dt {
+ font-size: 16px;
 }
 
 /* -----------------------------------------------------------
