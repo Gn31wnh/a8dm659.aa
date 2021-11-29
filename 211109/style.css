@@ -8,7 +8,7 @@ body {
  white-space: nowrap;
  overflow-wrap: anywhere;
  word-break: keep-all;
- border-right: 0px solid green;
+ border-right: 2px solid green;
 }
 
 div.article {
