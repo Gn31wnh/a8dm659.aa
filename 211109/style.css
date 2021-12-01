@@ -197,7 +197,7 @@ dt {
 .land_prev {
  width: 25%;
  height: 100%;
- position: absolute;
+ position: fixed;
  left: 0;
  top: 0;
  z-index: 12;
@@ -206,7 +206,7 @@ dt {
 .land_next {
  width: 25%;
  height: 100%;
- position: absolute;
+ position: fixed;
  right: 0;
  top: 0;
  z-index: 12;
