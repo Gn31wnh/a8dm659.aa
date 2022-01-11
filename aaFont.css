@@ -1,2 +1,23 @@
-@font-face{font-family:Stmr;src:url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);src:local('Saitamaar'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');font-weight:400}.AA_Text{font-family:'MS PGothic,Stmr';font-size:16px;line-height:1.125;background-color:#ffffff;-moz-text-size-adjust:none;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-break:break-all;white-space:nowrap;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal}@media screen and (min-width:541px) and (max-width:800px){.AA_Text{font-size:11px;width:800px}}@media screen and (max-width:540px){.AA_Text{font-size:9px;width:680px}}
+@font-face{font-family:Stmr;src:url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);src:local('Saitamaar'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');font-weight:400}.AA_Text{font-family:MS PGothic,Stmr;font-size:16px;line-height:1.125;background-color:white;-moz-text-size-adjust:none;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-break:break-all;white-space:nowrap;font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal}@media screen and (min-width:541px) and (max-width:800px){.AA_Text{font-size:11px;width:800px}}@media screen and (max-width:540px){.AA_Text{font-size:9px;width:680px}}
 @font-face{font-family:TextAA;src:url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);src:local('Saitamaar'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');font-weight:400}
+
+
+body {width: 1080px;margin-right: auto;margin-left: auto;white-space: nowrap;}
+
+.land_prev {
+ width: 25%;
+ height: 100%;
+ position: fixed;
+ left: 0;
+ top: 0;
+ z-index: 12;
+}
+
+.land_next {
+ width: 25%;
+ height: 100%;
+ position: fixed;
+ right: 0;
+ top: 0;
+ z-index: 12;
+}
