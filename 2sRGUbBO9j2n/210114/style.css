@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400&display=swap');
 
 body {
- font-family : "Meiryo UI", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック";
+ font-family : MS PGothic;
  width: 1080px;
  margin-right: auto;
  margin-left: auto;
@@ -15,7 +15,7 @@ div.article {
 }
 
 h2 {
- font-family : Microsoft JhengHei;
+ font-family : 'Noto Sans TC';
  margin-block-start: 0px;
  margin-block-end: 0px;
  padding : 5px 5px;
