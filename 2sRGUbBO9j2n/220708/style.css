@@ -195,7 +195,7 @@ dt {
 }
 
 .land_prev {
- width: 25%;
+ width: 21%;
  height: 100%;
  position: fixed;
  left: 0;
@@ -204,7 +204,7 @@ dt {
 }
 
 .land_next {
- width: 25%;
+ width: 21%;
  height: 100%;
  position: fixed;
  right: 0;
