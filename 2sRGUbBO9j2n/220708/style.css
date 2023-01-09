@@ -1,0 +1,213 @@
+body {
+ font-family : "Meiryo UI", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック";
+ max-width: 1080px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top : 0px;
+ margin-bottom : 0px;
+ white-space: nowrap;
+ overflow-wrap: anywhere;
+ word-break: keep-all;
+ border-right: 0px solid green;
+}
+
+div.article {
+ margin-left : 0px;
+}
+
+h2 {
+ font-family : Microsoft JhengHei, 'Noto Sans TC';
+ margin-block-start: 0px;
+ margin-block-end: 0px;
+ padding : 5px 5px;
+ border-top : solid 2px #036;
+ border-bottom : solid 2px #036;
+ line-height : 30px;
+ font-size : 20px;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+}
+
+a {
+ text-decoration: none;
+}
+a:link {
+ color : #036;
+}
+a:active {
+ color : #008;
+}
+a:visited {
+ color : #036;
+}
+a:hover {
+ color : #F00;
+}
+
+div.comment_navi {
+ font-size: initial;
+ font-family: initial;
+}
+
+/* 隱藏不需要的元素 */
+div.sponsor1-entries, .sponsor2-entries, .sponsor3-entries, .sponsor4-entries, .sponsor5-entries, .sponsor6-entries, .clear, .related, .related-entries, .navilink, .entry-info1, .entry-info2, .to-pagetop, .show-comform {
+ display: none;
+}
+
+form {
+ display: none;
+}
+
+/* 繁中 */
+/* 並列 */
+span.chinese1 {
+ display : inline-block;
+ vertical-align: top;
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
+ font-size: 16px;
+}
+
+/* 獨塊 */
+span.chinese2 {
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
+ font-size: 16px;
+ line-height : 20px;
+}
+
+/* 圖內 */
+span.chineseM {
+ display : inline-block;
+ vertical-align: top;
+ font-family: Mingliu, 'Noto Sans TC', sans-serif;
+ font-size: 16px;
+}
+
+dl {
+ margin-left : 10px;
+ display : block;
+ width : fit-content;
+}
+
+dl.ainote2 {
+ display: none;
+}
+
+/* 特寬AA用 */
+dl.ainote3 {
+ overflow-wrap: anywhere;
+ white-space:nowrap;
+ word-break: keep-all;
+}
+
+dl.ainote {
+ display : block;
+ background-color : #ffffe6;
+ width : fit-content;
+ padding-left : 10px;
+ padding-right : 12px;
+ border-radius : 8px 8px 8px 8px;
+ -moz-border-radius : 8px 8px 8px 8px;
+ -webkit-border-radius : 8px 8px 8px 8px;
+}
+
+dd.ainote2 {
+ padding-top : 0.5em;
+ font-size: 16px;
+}
+
+dd.ainote {
+ font-family : "Meiryo UI", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック";
+ margin-bottom : 10px;
+ font-size: 16px;
+ line-height : 1.2em;
+ position: relative;
+ top: 0.4em;
+}
+
+/* -----------------------------------------------------------
+ ■ 讀者留言
+------------------------------------------------------------ */
+/* 讀者留言順序翻轉 */
+fieldset {
+ display: none;
+ flex-direction: column-reverse;
+}
+
+/* それぞれのコメントについて
+------------------------------------------------------------ */
+div.comments {
+ margin-bottom : 3px;
+ padding : 7px
+ font-size : 16px;
+ line-height : 1.2em;
+}
+
+/* 各コメント情報
+------------------------------------------------------------ */
+div.comment-info {
+ border-bottom : solid 1px #AAA;
+}
+
+/* 投稿日時と投稿者 */
+span.commentator-info {
+ color : #666;
+ font-size : 16px;
+}
+
+/* 各コメント本文
+------------------------------------------------------------ */
+div.comments p {
+ padding : 6px;
+ margin-top : 3px;
+}
+
+@font-face{
+font-family:Stmr;
+src:url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);
+src:local('Saitamaar'),
+url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),
+url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),
+url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),
+url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');
+font-weight:400}
+
+dd {
+ font-family: 'MS PGothic',Stmr;
+ font-size: 16px;
+ line-height: 1.125;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ word-break: break-all;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: 400;
+ font-stretch: normal;
+}
+
+dt {
+ font-size: 16px;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ word-break: break-all;
+}
+
+.land_prev {
+ width: 25%;
+ height: 100%;
+ position: fixed;
+ left: 0;
+ top: 0;
+ z-index: 12;
+}
+
+.land_next {
+ width: 25%;
+ height: 100%;
+ position: fixed;
+ right: 0;
+ top: 0;
+ z-index: 12;
+}
