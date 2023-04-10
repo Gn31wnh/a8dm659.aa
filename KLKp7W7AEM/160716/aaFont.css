@@ -2,7 +2,7 @@
 @font-face{font-family:TextAA;src:url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);src:local('Saitamaar'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');font-weight:400}
 
 
-body {width: 1080px;margin-right: auto;margin-left: auto;white-space: nowrap;}
+body {width: 1080px;margin-right: auto;margin-left: auto;white-space: nowrap;padding-left:12px;}
 
 .land_prev {
  width: 20%;
