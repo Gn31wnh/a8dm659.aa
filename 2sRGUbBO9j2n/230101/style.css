@@ -50,7 +50,7 @@ div.comment_navi {
 }
 
 /* 隱藏不需要的元素 */
-div.sponsor1-entries, .sponsor2-entries, .sponsor3-entries, .sponsor4-entries, .sponsor5-entries, .sponsor6-entries, .clear, .related, .related-entries, .navilink, .entry-info1, .entry-info2, .to-pagetop, .show-comform {
+div.sponsor1-entries, .sponsor2-entries, .sponsor3-entries, .sponsor4-entries, .sponsor5-entries, .sponsor6-entries, .sponsor7-entries, .sponsor8-entries, .sponsor9-entries, .clear, .related, .related-entries, .navilink, .entry-info1, .entry-info2, .to-pagetop, .show-comform {
  display: none;
 }
 
@@ -194,7 +194,7 @@ dt {
 }
 
 .land_prev {
- width: 21%;
+ width: 10%;
  height: 100%;
  position: fixed;
  left: 0;
@@ -203,7 +203,7 @@ dt {
 }
 
 .land_next {
- width: 21%;
+ width: 10%;
  height: 100%;
  position: fixed;
  right: 0;
