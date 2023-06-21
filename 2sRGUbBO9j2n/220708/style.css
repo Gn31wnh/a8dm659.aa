@@ -8,7 +8,6 @@ body {
  white-space: nowrap;
  overflow-wrap: anywhere;
  word-break: keep-all;
- border-right: 0px solid green;
 }
 
 div.article {
@@ -51,7 +50,7 @@ div.comment_navi {
 }
 
 /* 隱藏不需要的元素 */
-div.sponsor1-entries, .sponsor2-entries, .sponsor3-entries, .sponsor4-entries, .sponsor5-entries, .sponsor6-entries, .clear, .related, .related-entries, .navilink, .entry-info1, .entry-info2, .to-pagetop, .show-comform {
+div.sponsor1-entries, .sponsor2-entries, .sponsor3-entries, .sponsor4-entries, .sponsor5-entries, .sponsor6-entries, .sponsor7-entries, .sponsor8-entries, .sponsor9-entries, .clear, .related, .related-entries, .navilink, .entry-info1, .entry-info2, .to-pagetop, .show-comform {
  display: none;
 }
 
