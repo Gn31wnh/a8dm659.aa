@@ -11,8 +11,19 @@
 <body>
 <div class="entry">
 <br>
-<a class="land_prev" href="38.html"></a>
-<a class="land_next" href="40.html"></a>
+<a class="land_prev" id="link1" href="38.html"></a>
+<a class="land_next" id="link2" href="40.html"></a>
+<script>
+document.addEventListener('keydown', function(event) {
+// 當按下方向鍵左鍵時，開啟 id="link1" 的超連結
+if (event.key === 'ArrowLeft') {
+document.getElementById('link1').click(); }
+// 當按下方向鍵右鍵時，開啟 id="link2" 的超連結
+else if (event.key === 'ArrowRight') {
+document.getElementById('link2').click();
+}
+});
+</script>
 <h2><a href="http://himanatokiniyaruo.com/blog-entry-23031.html">【安科】萊納鳴泣之時 第39話</a></h2>
 <dl><dt>3736 ： <span style="color:#d80000;">◆2sRGUbBO9j2n</span> ： 2021/03/06(土) 21:57:25.10 ID:No1wwncR</dt>
 <dd><br>

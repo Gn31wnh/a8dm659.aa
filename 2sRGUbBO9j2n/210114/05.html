@@ -11,8 +11,19 @@
 <body>
 <div class="entry">
 <br>
-<a class="land_prev" href="04.html"></a>
-<a class="land_next" href="06.html"></a>
+<a class="land_prev" id="link1" href="04.html"></a>
+<a class="land_next" id="link2" href="06.html"></a>
+<script>
+document.addEventListener('keydown', function(event) {
+// 當按下方向鍵左鍵時，開啟 id="link1" 的超連結
+if (event.key === 'ArrowLeft') {
+document.getElementById('link1').click(); }
+// 當按下方向鍵右鍵時，開啟 id="link2" 的超連結
+else if (event.key === 'ArrowRight') {
+document.getElementById('link2').click();
+}
+});
+</script>
 <h2><a href="http://himanatokiniyaruo.com/blog-entry-22498.html">【安科】萊納鳴泣之時 第5話</a></h2>
 <dl><dt>599 ： <span style="color:#d80000;">◆2sRGUbBO9j2n</span> ： 2021/01/20(水) 22:18:41.04 ID:W82yss9P</dt>
 <dd><br>

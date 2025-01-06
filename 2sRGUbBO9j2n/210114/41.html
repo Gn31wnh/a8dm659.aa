@@ -11,8 +11,19 @@
 <body>
 <div class="entry">
 <br>
-<a class="land_prev" href="40.html"></a>
-<a class="land_next" href="42.html"></a>
+<a class="land_prev" id="link1" href="40.html"></a>
+<a class="land_next" id="link2" href="42.html"></a>
+<script>
+document.addEventListener('keydown', function(event) {
+// 當按下方向鍵左鍵時，開啟 id="link1" 的超連結
+if (event.key === 'ArrowLeft') {
+document.getElementById('link1').click(); }
+// 當按下方向鍵右鍵時，開啟 id="link2" 的超連結
+else if (event.key === 'ArrowRight') {
+document.getElementById('link2').click();
+}
+});
+</script>
 <h2><a href="http://himanatokiniyaruo.com/blog-entry-23064.html">【安科】萊納鳴泣之時 第41話</a></h2>
 <dl><dt>92 ： <span style="color:#d80000;">◆2sRGUbBO9j2n</span> ： 2021/03/09(火) 22:32:16.29 ID:FYBvYgJM</dt>
 <dd><br>
@@ -1581,7 +1592,7 @@
  　　,': : : :|: : : : |　 ',　　　　　　　　　　　　　　　　　　　　　　 　 　 　 　 ,　　 ﾉ: : : :|: : : :|<br>
  　 ,': : :: ::|: : : : |ー ',　　　　　　　　　　　 ｀ー一´　　　　　　　　　　　　r　´: |: : : ::|: : ::∧　　　 　&nbsp;<span class="chinese1">利根川這大笨蛋！</span><br>
  　,': : : : ::|: : : : |: : :∧　　 　 　 　 　 r ――――― 、　　　　　　　　 /: : : ::|: : : ::|: : : : :',<br>
- ..,': : : : : :|: : : : | :: :: ∧　　　　　　　 iー――――一i　　　　　 　 　 /: : : : ::|: : : ::|: : : : : ',　　　　<span class="chinese1">正在決定要終止舊時代ABC兵器的</span><br>
+ ..,': : : : : :|: : : : | :: :: ∧　　　　　　　 iー――――一i　　　　　 　 　 /: : : : ::|: : : ::|: : : : : ',　　　　<span class="chinese1">正在決定要終止舊時代核生化兵器的</span><br>
  ,': : : : :: ::|: : : : |: : : : :∧.　　　　　　 l.　　　　　 　 　 |　　　　　　　 /: :: :: :: ::|: : : ::|: : : : : :i<br>
  :: :: :: :: :: |: : : : |: : : : : :∧　　　　　　|.　　 　 　 　 　 l　　　　　 　 /: : : : : : ::|: : : ::|: : : : : :|　　　　<span class="chinese1">開發與研究的時候，</span><br>
  :: :: :: :: :: |: : : : |: : : : : : :_}＼　　　　 |　　 　 　 　 　 .|　　　　　.／|: : : : : : : :|: : : ::|: : : : : :|<br>

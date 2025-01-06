@@ -11,8 +11,19 @@
 <body>
 <div class="entry">
 <br>
-<a class="land_prev" href="37.html"></a>
-<a class="land_next" href="39.html"></a>
+<a class="land_prev" id="link1" href="37.html"></a>
+<a class="land_next" id="link2" href="39.html"></a>
+<script>
+document.addEventListener('keydown', function(event) {
+// 當按下方向鍵左鍵時，開啟 id="link1" 的超連結
+if (event.key === 'ArrowLeft') {
+document.getElementById('link1').click(); }
+// 當按下方向鍵右鍵時，開啟 id="link2" 的超連結
+else if (event.key === 'ArrowRight') {
+document.getElementById('link2').click();
+}
+});
+</script>
 <h2><a href="http://himanatokiniyaruo.com/blog-entry-23043.html">【安科】萊納鳴泣之時 第38話</a></h2>
 <dl><dt>239 ： <span style="color:#d80000;">◆2sRGUbBO9j2n</span> ： 2021/03/05(金) 23:00:23.12 ID:1YHTGXNq</dt>
 <dd><br>
@@ -138,7 +149,7 @@
  　　　　　　　　　　　　 i.:::::i::::::.､:::.､::::i:::|. ::'.<br>
  　　　　　　　　　　　　 l::::i:ﾄ､:ﾄ､::､::ヽl:::|:: ::'.<br>
  .　　　　　　 　 　 　 　 ｌ::::!ｨｪｧヾｨｪｧﾞl:::|::_:::ヽ.<br>
- 　　　 　 　 　 　 　 　 _l::::.､　i　　 　 !::|ｸY´￣ ｀ヽ　　　　　　　　　　<span class="chinese1">開發ABC武器的舊小泉派已經很荒謬了，</span><br>
+ 　　　 　 　 　 　 　 　 _l::::.､　i　　 　 !::|ｸY´￣ ｀ヽ　　　　　　　　　　<span class="chinese1">開發核生化武器的舊小泉派已經很荒謬了，</span><br>
  　　　　　　　 　 　 ／　!::::::ﾄ､｀－　, l:::!/ﾉ　　　　 ゜　　　　　　<br>
  　　　　　　　　＿r'_　 i !::::::!′&gt;rt／l:::ﾚ′　　　　　ﾟ.　　　　　　　　<span class="chinese1">但為了權力鬥爭就屠殺民眾到底是怎麼想的？</span><br>
  　　　　　 　 /`ー----ﾘ.:::::!_,/;;;V;;;;／＿__　　　　　 }<br>
