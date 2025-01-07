@@ -61,6 +61,7 @@ form {
 /* 繁中 */
 /* 並列 */
 span.chinese1 {
+ position: absolute;
  display : inline-block;
  vertical-align: top;
  font-family: 'Noto Sans TC';
