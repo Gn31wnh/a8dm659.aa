@@ -11,6 +11,7 @@ body {
 }
 
 div.article {
+ position: relative;
  margin-left : 0px;
 }
 
