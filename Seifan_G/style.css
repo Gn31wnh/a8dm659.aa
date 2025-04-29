@@ -7,11 +7,12 @@ body {
  margin-left: auto;
  margin-top : 10px;
  margin-bottom : 0px;
+ padding-bottom: 15px;
 }
 
-div {
- margin-right: 10px;
- margin-left: 10px;
+div. {
+ margin-right: 15px;
+ margin-left: 15px;
 }
 
 img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
