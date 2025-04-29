@@ -5,12 +5,13 @@ body {
  width: 1080px;
  margin-right: auto;
  margin-left: auto;
- margin-top : 0px;
+ margin-top : 10px;
  margin-bottom : 0px;
 }
 
-div.article {
- margin-left : 0px;
+div {
+ margin-right: 10px;
+ margin-left: 10px;
 }
 
 img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
