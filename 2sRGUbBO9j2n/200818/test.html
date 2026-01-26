@@ -4,42 +4,48 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<title>AA Test</title>
+
 <style>
-/* AA 專用：什麼都不要亂改 */
+/* 手機可用的等寬 AA 字型 */
+@font-face {
+  font-family: 'Saitamaar';
+  src:
+    url('https://keage.sakura.ne.jp/fonts/Saitamaar.woff2') format('woff2'),
+    url('https://keage.sakura.ne.jp/fonts/Saitamaar.woff') format('woff'),
+    url('https://keage.sakura.ne.jp/fonts/Saitamaar.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* AA 專用 */
 pre.aa {
   font-family:
-    "MS PGothic",
-    "IPAMonaPGothic",
-    "Noto Sans Mono CJK JP",
+    'MS PGothic',
+    'IPAMonaPGothic',
+    'Saitamaar',
+    'Courier New',
     monospace;
+
   font-size: 16px;
   line-height: 1.125;
+
   white-space: pre;
   word-break: normal;
   overflow-x: auto;
 
-  /* 重要：不要讓瀏覽器自動縮放字 */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  margin: 0;
+  padding: 8px;
 }
 </style>
 </head>
 
 <body>
 
-<pre class="aa">
-　　　／￣￣＼
-　　／　 _ノ　＼
-　　|　 （ ●）（●）
-　　|　　 （__人__）
-　　|　　　 ｀ ⌒´ﾉ
-　　|　　　　　　 }
-　　ヽ　　　　　 }
-　　 ヽ　　　　 ノ
-　　　/　　　 く
-　　　|　　　　 |
-</pre>
-  <pre class="aa"> 　　　　　　　　　　　　　＿,,..........,,,,＿
+<pre class="aa"> 　　　　　　　　　　　　　＿,,..........,,,,＿
  　　　　　　 　 　　 ,.z.!ﾞ　||　 ||　 || 　||`,
  　　　　　 　 　 　 ((~|| 　||　 || 　||　 ||　|
  .　 　 　　　　 　 　l　||　 || 　||　 ||　 ||　|
@@ -55,40 +61,7 @@ pre.aa {
  　　　　 　 　　 ,'::::::::ｌ',.　　　〃_＿__ ',　,'
  　　 　　　　 　,'::::::::/ ヽ　　 ''　 　 　 './l
  .　 　 　 　 　 ゞ:／ヽ 　 ＼ 　 　 　／::ﾉ
- 　 　 　 　 __／ヽ 　 ヽ 　　 ｀ ''iﾘi" |ヾ</pre>
-  <pre class="aa"> 　　　　　　　　　　 _,､ -‐''''""~~""''''‐- ､_
- 　　　　　　　　,.-'"　　　　　　　　　　　　　ﾞヽ,
- 　　　　　　 ,r"　　　　　　　　　　　 　 　 　 　 ﾞ､
- 　　　　　_,/　　　　　　　　　　　　 　 　 　 　 　 ﾞ､
- .　　　,r'"　　　　　　　　　　　　　　　　　　　　 　 ﾞ､
- 　　　{　　　　　{　　　　　　　　　　　　　 　 　 　 　 ヽ
- 　 　 {　　　　　{　　　　　..,,_　　　　　　　　　　　　　　ヽ
- .　　 ﾉ　　　　 ,'ﾞ'､ヾ､レ‐---､ヾﾞ)ﾉ）　　　-､ 　 　 　 　 ﾞ,
- 　　/　　　　　{　 ,､-:::::..　 :.　:::ﾂ ﾉ　　 　 ﾞ､ﾞ'､　　 　 　 ｝
- 　 ,"　　　 　 _!,,ｿ:::::::::::::::..　:. :::::ﾉ{　　　　　}　}　　　 　 ﾉ
- 　 {　　 　 r'':::::::::r-､;_::::::::　 :. :/　ﾞ'‐-､,　　 }.ﾉ　 　 　 ｛
- 　 ﾞ､　 　 {　::::::::;'　　 ｀''ー-‐'"　　 　 ノ　　ﾘ　　　　 　 ﾞヽ
- .　　ﾞ'‐-､ ﾞ'､ ::::/　　　　　　　　　　　､,クﾉﾊ　　　　　　 　 ｝
- 　　　　　ﾞ'‐｀'{'ﾞiヽ､'　　 __,,,　 　 　 ,.,.,.,,,_/_ﾊ　　　　　　　｛　　　　　　　　　　　　　<span class="chinese1">順便一提，你的MS隊的副隊長是【1D10:3】</span>
- 　　　　　　　 ｀'ヽ　 r"　　　　　　 .| ┌ー-ﾞ-ニっ　　　　　ヽ､
- 　　　　　　　　　{ヽ　　"　　　　　　| .|　　　　　　｝　ト）　 　 ﾋ｀ゝ
- 　　　　　　　　　｀~}ヽ　　　　　　／.| |　　　　　 -‐"　　ヽ､　ﾏ
- 　　　　　l'''ﾆﾆﾆﾆ{､､,ﾞ'､.,＿_-‐"　　| |　　　　　　　　　　　　ヽ'
- .　　　 　 | i　　　　　ﾉ　　　　 l,.､-'"| |
- 　　　　　 | i　　　　 ｀つ　　 ζ　　 .| |
- 　　　　　 ヽ,ヽ　　　　　｀''ー'l
- .　　　　　　 ヽ,ﾞ､　　 　 　 　 !
-
-<span class="chinese2">1.水銀燈
-2.新角色男
-3.新角色男
-4.水銀燈
-5.新角色女
-6.新角色女
-7.佐籐
-8.能感受到猛虎魂（渥特菲德）
-9.萊納！
-10.【1D2:1】（1.大成功　2.大失敗）</span></pre>
+ 　 　 　 　 __／ヽ 　 ヽ 　　 ｀ ''iﾘi" |ヾ<</pre>
 
 </body>
 </html>
