@@ -4,64 +4,78 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>AA Test</title>
+<title>AA Mobile Test</title>
 
 <style>
-/* 手機可用的等寬 AA 字型 */
+/* ===== Saitamaar / AA font ===== */
 @font-face {
-  font-family: 'Saitamaar';
+  font-family: Stmr;
+  src: url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot);
   src:
-    url('https://keage.sakura.ne.jp/fonts/Saitamaar.woff2') format('woff2'),
-    url('https://keage.sakura.ne.jp/fonts/Saitamaar.woff') format('woff'),
-    url('https://keage.sakura.ne.jp/fonts/Saitamaar.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    local('Saitamaar'),
+    url(https://keage.sakura.ne.jp/fonts/Saitamaar.eot?#iefix) format('embedded-opentype'),
+    url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff2) format('woff2'),
+    url(https://keage.sakura.ne.jp/fonts/Saitamaar.woff) format('woff'),
+    url(https://keage.sakura.ne.jp/fonts/Saitamaar.ttf) format('truetype');
+  font-weight: 400;
 }
 
-/* AA 專用 */
+/* ===== AA block ===== */
 pre.aa {
-  font-family:
-    'MS PGothic',
-    'IPAMonaPGothic',
-    'Saitamaar',
-    'Courier New',
-    monospace;
-
+  font-family: Stmr, 'MS PGothic', monospace;
   font-size: 16px;
   line-height: 1.125;
 
-  white-space: pre;
-  word-break: normal;
-  overflow-x: auto;
+  word-break: break-all;    /* ❗ 關鍵 */
 
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: none;
   text-size-adjust: 100%;
 
+  background-color: #f8f8f9;
   margin: 0;
   padding: 8px;
+}
+
+/* ===== Tablet ===== */
+@media screen and (min-width: 541px) and (max-width: 800px) {
+  pre.aa {
+    font-size: 11px;
+    width: 800px;
+  }
+}
+
+/* ===== Mobile ===== */
+@media screen and (max-width: 540px) {
+  pre.aa {
+    font-size: 9px;
+    width: 680px;
+  }
 }
 </style>
 </head>
 
 <body>
 
-<pre class="aa"> 　　　　　　　　　　　　　＿,,..........,,,,＿
- 　　　　　　 　 　　 ,.z.!ﾞ　||　 ||　 || 　||`,
- 　　　　　 　 　 　 ((~|| 　||　 || 　||　 ||　|
- .　 　 　　　　 　 　l　||　 || 　||　 ||　 ||　|
- 　　　　　　　　　　|　||　 || 　||　 ||　 ||　|
- 　　　　　　　　　　|　||　 ||　 ||　 ||　 ||　|
- 　　　　　　　　　　|'''｡'"´￣￣￣o￣￣ﾞ|
- 　　　　　　　　　　,''l.T:/´ ￣￣ `'"￣ ｀|
- 　　　　　　　 　　 l::| |/ 　　　　　　　　　|
+<pre class="aa">　　　　　　　　　　　　　＿,,..........,,,,＿
+　　　　　　 　 　　 ,.z.!ﾞ　||　 ||　 || 　||`,
+　　　　　 　 　 　 ((~|| 　||　 || 　||　 ||　|
+.　 　 　　　　 　 　l　||　 || 　||　 ||　 ||　|
+　　　　　　　　　　|　||　 || 　||　 ||　 ||　|
+　　　　　　　　　　|　||　 ||　 ||　 ||　 ||　|
+　　　　　　　　　　|'''｡'"´￣￣￣o￣￣ﾞ|
+　　　　　　　　　　,''l.T:/´ ￣￣ `'"￣ ｀|
+　　　　　　　 　　 l::| |/ 　　　　　　　　　|
  　 　 　 　 　　 　 !::| | ／｀ヽ､,,_　　 _,.=ﾍ|
  　　 　　 　　　　 !ヽ!j 　 ',´('7｀ 　 .{ ｴi｀ |
- 　　　　　　　　　| 9.lj　　　￣　　 　l￣　.!　　　　　　　　　では短いですが投下します。
- 　　　　　　　　　!`ｰｌｌ　　　　　　　_.j　　 |
- 　　　　 　 　　 ,'::::::::ｌ',.　　　〃_＿__ ',　,'
- 　　 　　　　 　,'::::::::/ ヽ　　 ''　 　 　 './l
- .　 　 　 　 　 ゞ:／ヽ 　 ＼ 　 　 　／::ﾉ
- 　 　 　 　 __／ヽ 　 ヽ 　　 ｀ ''iﾘi" |ヾ<</pre>
+　　　　　　　　　| 9.lj　　　￣　　 　l￣　.!　　　　　　　　　では短いですが投下します。
+　　　　　　　　　!`ｰｌｌ　　　　　　　_.j　　 |
+　　　　 　 　　 ,'::::::::ｌ',.　　　〃_＿__ ',　,'
+　　 　　　　 　,'::::::::/ ヽ　　 ''　 　 　 './l
+.　 　 　 　 　 ゞ:／ヽ 　 ＼ 　 　 　／::ﾉ
+ 　 　 　 　 __／ヽ 　 ヽ 　　 ｀ ''iﾘi" |ヾ<
+</pre>
 
 </body>
 </html>
